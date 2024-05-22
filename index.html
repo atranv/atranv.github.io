@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alex Tran</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+  </head>
+  <body>
+    <div id="header">
+        <div class ="container">
+            <div class="profile-image">
+                <img src="images/alex.jpeg" alt="me">
+            </div>
+        </div> 
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="https://github.com/atranv">GitHub</a></li>
+                <li><a href="https://www.linkedin.com/in/alextrancs/">LinkedIn</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <h2>Alex Tran</h2>
+            <p>Software Developer</p>
+            <p>Computer Science, B.S.</p>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+<section id="portfolio">
+    <div class="container">
+        <div class="portfolio-grid">
+            <div class="portfolio-item">
+                <img src="images/horse4.png" alt="Project 1">
+                <h3>Stablemate</h3>
+                <p>Matches racetrack workers with trainers/owners</p>
+            </div>
+            <div class="portfolio-item">
+                <img src="images/mini.png" alt="Project 2">
+                <h3>Mini Notifier</h3>
+                <p>Notifies my girlfriend whenever the new mini is out</p>
+                <p2>Python + Django + Firebase + AWS</p2> <!--come back to this-->
+            </div>
+            <div class="portfolio-item">
+                <img src="images/camera.png" alt="Project 3">
+                <h3>Frame</h3>
+                <p>Mobile photo sharing application</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact">
+    <div class="form-container">
+        <h1>Contact Me</h1>
+        <form action="your_server_script.php" method="post">
+            <div class="form-group">
+                <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+                <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+                <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit" id="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+
+<div id="social-icons">
+    <a href="https://www.linkedin.com/in/yourprofile" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/yourusername" target="_blank"><i class="fab fa-github"></i></a>
+</div>
+
+
+    <main> 
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
