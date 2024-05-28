@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #080808;
+    color: #fff;
+}
+#header {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    background-image: url(images/horse3.jpg);
+    filter: grayscale(50%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 20px;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+    color: #080808;
+    margin-top: 0px;
+    opacity: 0.75;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 20;
+    padding: 0;
+    display: flex;
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(0, 0, 0); /* Set text color as an example */
+}
+
+.profile-image img {
+    max-width: 100px; /* Set the maximum width of your image */
+    border-radius: 50%; /* Make the image circular */
+    margin-right: 20px;
+}
+
+/* Position the "About" section on top of the background image */
+#about {
+    position: relative;
+    margin-top: -700px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center-align the content horizontally */
+    flex-direction: column; /* Stack the child elements vertically */
+    z-index: 1; /* Ensure it's above the background image */
+}
+
+/* Style the "About" section container */
+#about .container {
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.7); /* Set text color for readability */
+    z-index: 2; /* Ensure it's above the semi-transparent background */
+    text-align: center; /* Center-align the content horizontally */
+    display: flex;
+    flex-direction: column; /* Stack the child elements vertically */
+    align-items: center; /* Center-align child elements horizontally */
+}
+
+
+/* Style the "About" content for stacking vertically */
+.about-content {
+    text-align: center; /* Center-align the content horizontally */
+    display: flex;
+    flex-direction: column; /* Stack the child elements vertically */
+    align-items: center; /* Center-align child elements horizontally */
+}
+
+/* Style the "About" header */
+.about-content h2 {
+    margin-bottom: 10px; /* Add spacing below the header */
+}
+
+/* Style the "Portfolio" section */
+#portfolio {
+    position: relative; /* Set relative positioning */
+    padding: 0;
+    margin: 0;
+    margin-top: 125px; /* Adjust this value to move the section up */
+}
+
+/* Style the portfolio grid */
+.portfolio-grid {
+    display: flex;
+    flex-wrap: wrap; /* Allow items to wrap to the next row if necessary */
+    justify-content: space-between; /* Distribute items evenly in a row */
+    max-width: 800px; /* Adjust the maximum width as needed */
+    margin: 0 auto; /* Center the grid horizontally */
+    background-color: rgba(0, 0, 0, 0); /* Semi-transparent background color */
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 10px; /* Add rounded corners to the items */
+    position: absolute; /* Set absolute positioning */
+    top: 50%; /* Center vertically */
+    left: 50%; /* Center horizontally */
+    transform: translate(-50%, -50%); /* Center the grid both vertically and horizontally */
+}
+
+/* Style individual portfolio items */
+.portfolio-item {
+    width: calc(33.33% - 20px); /* Adjust the width for three items with some spacing */
+    margin-bottom: 10px; /* Add spacing between items */
+}
+
+/* Style images inside portfolio items */
+.portfolio-item img {
+    max-width: 150px;
+    max-height: 150px;
+    height: auto;
+    border-radius: 10px; /* Add rounded corners to the images */
+}
+
+.portfolio-item h3,
+.portfolio-item p {
+    margin-top: 10px;
+    color: rgba(0, 0, 0, 0.7); /* Set text color for readability */
+
+}
+
+#about-page {
+    margin-top: 10px;
+    max-width: 800px; /* Adjust the maximum width as needed */
+    padding: 20px;
+    color: rgba(0, 0, 0, 0.7); /* Set text color for readability */
+    z-index: 2; /* Ensure it's above the semi-transparent background */
+    text-align: center; /* Center-align the content horizontally */
+    display: flex;
+    flex-direction: column; /* Stack the child elements vertically */
+    align-items: center; /* Center-align child elements horizontally */
+    }
+/* CSS styles for the contact form */
+#contact {
+    position: absolute;
+    top: 67%;
+    left: 43.5%;
+    z-index: 2; /* Set a higher z-index to bring the form forward */
+    background-color: #ffffff00; /* Add a background color to the form container for visibility */
+    padding: 30px; /* Add padding for spacing */
+    max-width: 400px;
+    justify-content: center;
+    flex-direction: column;
+    display:flex;
+    color: gray;
+    border-radius: 8px;
+  }
+
+  #contact .form-container h1 {
+    color: #ffffff; /* Dark grey color for the heading text */
+    margin-bottom: 4px;
+  }
+
+  #name {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+  }
+  #email {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    padding-left: 10px;
+  }
+  #message {
+    margin-top: 4px;
+    padding-left: 10px;
+  }
+  #submit {
+    margin-left: 50px;
+  }
+  
+
+
