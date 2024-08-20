@@ -15,8 +15,8 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    background-image: url(images/horse3.jpg);
     filter: grayscale(50%);
+    background-color: rgb(37, 150, 190);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
