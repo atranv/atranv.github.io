@@ -17,11 +17,6 @@ body {
     align-items: flex-start;
     filter: grayscale(50%);
     background-color: rgb(37, 150, 190);
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding: 20px;
-    background-attachment: fixed;
 }
 
 .container{
