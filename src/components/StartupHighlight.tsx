@@ -6,13 +6,13 @@ const StartupHighlight = () => {
       icon: Rocket,
       title: "Gamma AI → Palo Alto Networks",
       role: "Head of Business Development",
-      description: "Led GTM strategy, driving $1M revenue pre-acquisition with $10M in pipeline.",
+      description: "Led GTM strategy, drove to millions in revenue pre-acquisition.",
     },
     {
       icon: TrendingUp,
       title: "Unbound Security AI",
       role: "Advisor (YC-Backed)",
-      description: "Advising on product innovation and GTM. Secured $2M+ in pipeline.",
+      description: "Advised on product innovation and GTM.",
     },
     {
       icon: Award,
