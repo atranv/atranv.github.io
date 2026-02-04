@@ -14,9 +14,9 @@ const Experience = () => {
     },
     {
       company: "Couchbase",
-      role: "BDR Manager",
+      role: "BDR/BDR Manager",
       period: "2018 – 2020",
-      description: "BDR Professional of the Year 2019. Drove market adoption of NoSQL solutions.",
+      description: "Business Development Professional of the Year 2019.",
     },
   ];
 
